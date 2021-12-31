@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+<class name="DepartmentBean" table="Department">
+
+<id name="deptId" type="int" column="DEPT_ID" >
+
+<generator class="increment"/>
+
+</id>
+
+
+<property name="facId">
+<column name="FAC_ID"  />
+</property>
+
+
+<property name="deptName">
+
+<column name="DEPT_NAME" />
+
+</property>
+
+<property name="remarks">
+
+<column name="REMARKS" />
+</property>
+
+
+</class>
+
+</hibernate-mapping>

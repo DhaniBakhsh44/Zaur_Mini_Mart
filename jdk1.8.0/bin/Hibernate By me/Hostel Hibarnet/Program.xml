@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+<class name="ProgramBean" table="Program">
+
+<id name="progId" type="int" column="PROG_ID" >
+
+<generator class="increment"/>
+
+</id>
+
+
+<property name="deptId">
+<column name="DEPT_ID"  />
+</property>
+
+
+<property name="progName">
+<column name="PROG_NAME" />
+</property>
+
+<property name="progDuration">
+
+<column name="PROG_DURATION"  />
+</property>
+
+<property name="remarks">
+<column name="REMARKS" />
+</property>
+
+
+</class>
+
+</hibernate-mapping>

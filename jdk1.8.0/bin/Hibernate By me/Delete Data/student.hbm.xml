@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+<class name="StudentBean" table="getdata">
+
+<id name="stdId" type="int" column="std_id" >
+
+<generator class="increment"/>
+
+</id>
+
+<property name="stdName">
+
+<column name="std_name" />
+
+</property>
+
+<property name="stdSubject">
+
+<column name="std_subject" />
+
+</property>
+
+<property name="rollNo">
+
+<column name="roll_no" />
+
+</property>
+
+
+</class>
+
+</hibernate-mapping>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<registration_data version="1.0">
+   <environment>
+      <hostname>Qadeer-PC</hostname>
+      <hostId/>
+      <osName>Windows 7</osName>
+      <osVersion>6.1</osVersion>
+      <osArchitecture>x86</osArchitecture>
+      <systemModel/>
+      <systemManufacturer/>
+      <cpuManufacturer/>
+      <serialNumber/>
+   </environment>
+   <registry urn="urn:st:72d892d7-2432-40e0-838a-7710c7f7adf4" version="1.0">
+      <service_tag>
+         <instance_urn>urn:st:26149265-6fcb-420c-b031-b3f2d9302ffc</instance_urn>
+         <product_name>Java Development Kit</product_name>
+         <product_version>1.8.0-ea</product_version>
+         <product_urn>Q8549</product_urn>
+         <product_parent_urn>Q8549</product_parent_urn>
+         <product_parent>Java Platform, Standard Edition</product_parent>
+         <product_defined_inst_id>id=1.8.0-ea-b20 x86,dir=C:\Program Files (x86)\Java\jdk1.8.0\jre</product_defined_inst_id>
+         <product_vendor>Oracle Corporation</product_vendor>
+         <platform_arch>x86</platform_arch>
+         <timestamp>2016-06-06 13:57:06 GMT</timestamp>
+         <container>global</container>
+         <source>Windows JDK i586 installer</source>
+         <installer_uid>-1</installer_uid>
+      </service_tag>
+   </registry>
+</registration_data>

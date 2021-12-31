@@ -1,0 +1,14 @@
+
+public interface PageSetupInterface {
+
+  double PIXEL_PER_INCH=72;
+
+  double PAPER_WIDTH=8.3*PIXEL_PER_INCH;
+  double PAPER_HEIGHT=11.7*PIXEL_PER_INCH;
+
+  double LEFT_MARGIN=0.5*PIXEL_PER_INCH;
+  double RIGHT_MARGIN=0.5*PIXEL_PER_INCH;
+
+  double TOP_MARGIN=0.5*PIXEL_PER_INCH;
+  double BOTTOM_MARGIN=0.5*PIXEL_PER_INCH;
+}
